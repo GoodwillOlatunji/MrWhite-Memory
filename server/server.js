@@ -96,7 +96,7 @@ app.listen(PORT, HOST, () => {
     console.log('[Mr. White] Serving static files from:', path.join(__dirname, '../public'));
 });
 
-const DEFAULT_MODEL = 'codellama:latest';
+const DEFAULT_MODEL = 'tinyllama:latest';
 const DEFAULT_OLLAMA_PATH = 'C:\\Users\\Goodwill\\AppData\\Local\\Programs\\ollama\\ollama.exe';
 
 
