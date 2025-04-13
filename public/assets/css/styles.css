@@ -910,7 +910,7 @@ svg {
 
 .chat-message--user {
   justify-content: flex-end;
-  background-color: #6be7ba;
+  background-color: #000000;
   align-self: flex-end;
   max-width: fit-content;
   margin-left: auto;
