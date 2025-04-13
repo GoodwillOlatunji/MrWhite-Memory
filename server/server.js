@@ -11,9 +11,9 @@ const __dirname = path.dirname(__filename);
 const app = express();
 
 // Host configuration
-const HOST = process.env.HOST || '4.205.178.230'; // 0.0.0.0 allows connections from any IP
+const HOST = 'localhost';  // Changed to localhost only
 const PORT = process.env.PORT || 5000;
-const PUBLIC_URL = process.env.PUBLIC_URL || `http://localhost:${PORT}`; // For client-side references
+const PUBLIC_URL = `http://localhost:${PORT}`; // Simplified for local use
 
 console.log('[Mr. White] Server initializing...');
 
