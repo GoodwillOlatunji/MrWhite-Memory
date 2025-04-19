@@ -570,7 +570,7 @@ svg {
 
 .card-slider .card-item {
   user-select: none;
-  height: 500px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -605,6 +605,9 @@ svg {
 .card-slider .card-item .card-title {
   font-size: 24px;
   margin: 16px 0 8px;
+}
+.card-description{
+  margin-bottom: 10px;
 }
 
 .swiper-pagination span {
@@ -910,7 +913,7 @@ svg {
 
 .chat-message--user {
   justify-content: flex-end;
-  background-color: #000000;
+  background-color: #2e2e2e;
   align-self: flex-end;
   max-width: fit-content;
   margin-left: auto;
@@ -931,7 +934,7 @@ svg {
 
 .chat-message--user .chat-message-content {
   text-align: right;
-  color: #040608;
+  color: #cecece;
   text-shadow: 2px 3px 5px rgba(20, 20, 20, 0.5);
 }
 
